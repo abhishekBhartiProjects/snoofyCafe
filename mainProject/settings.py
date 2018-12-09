@@ -121,6 +121,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') #where file is located on project. "media" directory will be in base directory.
+MEDIA_URL = '/media/' #how that image can be accessed from browser
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
