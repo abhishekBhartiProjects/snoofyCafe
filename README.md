@@ -7,3 +7,6 @@ Smile and cheers :) :)
 
 ### Registration form
 ![alt text](https://github.com/abhishekBhartiProjects/snoofyCafe/blob/master/Screenshots/registrationform.png)
+
+### Profile page
+![alt text](https://github.com/abhishekBhartiProjects/snoofyCafe/blob/master/Screenshots/profile.png)
