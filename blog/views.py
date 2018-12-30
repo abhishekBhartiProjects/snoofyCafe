@@ -22,6 +22,7 @@ class PostListView(ListView):
     template_name = 'blog/home.html' # <app>/<model>_<viewtype>.html
     context_object_name = 'posts'
     ordering = ['-date_posted'] # - sign for reverse order
+    paginate_by = 2
 
 class PostDetailView(DetailView):
     model = Post #If we will stick to the naming convention, we will only require this single line of code.
